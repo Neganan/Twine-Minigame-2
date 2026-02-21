@@ -1,0 +1,511 @@
+:: StoryTitle
+Twine Minigame 2
+
+
+:: StoryData
+{
+  "ifid": "d1d488d1-e008-43d0-8226-d7aa8a51892b",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Start",
+  "zoom": 0.6
+}
+
+
+:: NewStart {"position":"1337.5,2125","size":"100,100"}
+!Bomb! That! Date!!!
+
+(Your name is Jeb. Their name is Sam. Sam has invited you to go out with them, and you have reluctantly agreed. Try to bomb the date. Good luck.)
+
+[[begin]]
+
+[[why]]
+
+[[dev]]
+
+
+:: Start {"position":"1850,875","size":"100,100"}
+!Bomb! That! Date!!!
+
+(Your name is Jeb. Their name is Sam. Sam has invited you to go out with them, and you have reluctantly agreed. Try to bomb the date. Good luck.)
+
+[[begin]]
+
+[[why]]
+
+
+:: agree {"position":"1787.5,1250","size":"100,100"}
+(They seem surprised by your bluntness, but they laugh it off.)
+
+Yeah, I do kinda look like a mess right now. I think I screwed up my hair when I was running here, and I think there might be stain on my sweater or something...
+
+(They turn away from you and forcefully cough. You're clearly making them uncomfortable. Good job. At this rate, they'll walk out on you in no time.)
+
+(After fully recovering from your brutal honesty, they try to change the subject.)
+
+Do you... have any hobbies?
+
+[[fishing]]
+
+[[video games]]
+
+[[playing guitar]]
+
+
+:: ask {"position":"1725,2000","size":"100,100"}
+(Before you even finish asking them to elaborate further, they've already pulled out their phone and begun scrolling through their camera roll. They lift off their chair a bit and lean closer to you, video in hand.)
+
+I playes this one a couple of days after Eve dropped it, it grew on me immediately. I usually play J-pop like this, but I play whatever I feel when an artist drops a song I really like, or when I find an animation meme I enjoy. I can't really play anything //too// complicated, but I've been at it since I was 12, so I'd say I'm pretty alright. 
+
+(Past the screen, you can see them gazing at you with wide eyes, waiting for you to commend him. I personally think they're only //alright//, but they're impressive enough that you can't help but praise them. They look much more collected now, it's clear you've boosted their ego a little.)
+
+You flatter me. Really, I'm not the best, but if we met up again you could watch me play-
+
+(A shrill buzz lightly shakes the table. They look at the notification and let out an exasperated sigh.)
+
+Sorry, I think I have to go. I really did want to schedule this when I was free, but work has been kicking my ass lately. I don't think I can decline this, I've taken too many off days...
+
+(They stand up and adjust their sweater, shivering a little from the cold as if the brace for the afternoon air.)
+
+It was fun though! Even though you do act like an ass sometimes, I did enjoy talking to you. You have my number so... give me a text and we can find a time when we're //actually// free. Bye!
+
+(Sam quickly exits the building, letting in a gust of cool wind and gently ringing the bell as they hurry along. The cafe's staff pay no notice and continue working in the kitchen.)
+
+did... did i [[win?->loss]]
+
+
+:: assholewin {"position":"1850,2125","size":"100,100"}
+!Yes, yes you did!
+
+(Good job, player! You've successfully pissed them off enough to walk out on you, at the cost of your reputation. I couldn't be more proud.)
+
+[[great]]
+
+i feel [[bad]]
+
+
+:: awesome {"position":"2162.5,1250","size":"100,100"}
+(Yeah, I know I am. Anyways, you should play my super cool game now. Don't keep me waiting.)
+
+[[sure->begin]]
+
+
+:: bad {"position":"1475,2000","size":"100,100"}
+(Don't be silly. This person isn't even real, you can't feel bad for words on a screen. I'm sure you enjoyed seeing them suffer anyways. If you wanna see their hilarious reactions again, I can send you back.)
+
+[[restart->NewStart]]
+
+
+:: begin {"position":"1787.5,1000","size":"100,100"}
+(It's a cold autumn afternoon. The light oranges and pink hues blend naturally with the faint grays of the clouds in the sky. A shrill jingle echoes through your ears as you enter the cafe Sam promised to meet you at. A waitress guides you to a table in the corner with am ample view through the window. You look around, but it seems Sam is nowhere to be found. She asks to take your order.)
+
+[[wait]] for Sam to arrive
+
+[[order]] first
+
+
+:: change {"position":"1912.5,1375","size":"100,100"}
+(Wow. You are //REALLY// dedicated. I'm honestly impressed at how quickly you get attached to people you don't know. I bet all your crushes have been celebrities and all your relationships have been online. Lonely ass.)
+
+[[low blow]] dude
+
+
+:: comfort {"position":"1787.5,1625","size":"100,100"}
+(You assure them that Snorpworld sounds fantastic and you'd be willing to give it a try. Slowly, they uncurl themself from the sad little ball they rolled themselves into and give you a small smile.)
+
+I'm... sorry I infodumped on you like that. Really, it is a good game but... y'know... sorry again.
+
+(They pretend to check their notifications and feign surprise.)
+
+Terribly sorry, but I think my friends are starting to miss me now. I've got to go, but it was fun! Kinda! When I wasn't being overbearing, that is.
+
+(They let out a nervous chuckle before frantically standing up.)
+
+But I would like to meet up with you again! You're... honestly a bit of a dick at times, but- I mean- if I could get your number- wait I already have it- GOODBYE
+
+(They nearly kick down the door as they make their dramatic exit, leaving the bell ringing violently. Despite your... questionable actions, it seems they're willing to ignore those red flags and give you another chance.)
+
+did... did i [[win?->loss]]
+
+
+:: comfortgood {"position":"1525,2125","size":"100,100"}
+(You assure them that Snorpworld sounds fantastic and you'd be willing to give it a try. Slowly, they uncurl themself from the sad little ball they rolled themselves into and give you a small smile.)
+
+I'm... sorry I infodumped on you like that. Really, it is a good game but... y'know... sorry again.
+
+(They pretend to check their notifications and feign surprise.)
+
+Terribly sorry, but I think my friends are starting to miss me now. I've got to go, but it was fun! Kinda! When I wasn't being overbearing, that is.
+
+(They let out a nervous chuckle before frantically standing up.)
+
+But I would like to meet up with you again! You're... honestly super nice to me and I'm not sure why, but- I mean- if I could get your number- wait I already have it- GOODBYE
+
+(They nearly kick down the door as they make their dramatic exit, leaving the bell ringing violently, frightening one of the cafe's baristas. You're left with a soft silence and the prospect of another date.)
+
+did... did i [[win?->goodloss]]
+
+
+:: compliment {"position":"1912.5,1250","size":"100,100"}
+(You can see a light flush enter their cheeks, their skin warming into a into a pinker tone. They seem to melt into their chair slightly, and they attempt to avoid eye contact like the plague.)
+
+I-I'm really not- my hair's messed up- I tried to look nice for- you look good- not that I- I mean-
+
+(It takes them a good while for them to recover from your light flirting and try to change to subject. God, they're such a lightweight. They can barely handle a conversation, let alone teasing. It pisses me off.)
+
+Do you... have any hobbies?
+
+[[fishing]]
+
+[[video games]]
+
+[[playing guitar]]
+
+
+:: complimentgood {"position":"1600,1250","size":"100,100"}
+(You can see a light flush enter their cheeks, their skin warming into a into a pinker tone. They seem to melt into their chair slightly, and they attempt to avoid eye contact like the plague.)
+
+I-I'm really not- my hair's messed up- I tried to look nice for- you look good- not that I- I mean-
+
+(It takes them a good while for them to recover from your light flirting and try to change to subject. God, they're such a lightweight. They can barely handle a conversation, let alone teasing. It pisses me off.)
+
+Do you... have any hobbies?
+
+[[fishing]]
+
+[[video games->videogamesgood]]
+
+[[playing guitar->guitargood]]
+
+
+:: dev {"position":"1337.5,2250","size":"100,100"}
+''hi! thank you very much for playing my game (or one of the endings, at least.) this project was //not// meant to take this long, but because of writers block and my autistic desire to make this slop longer than it had any right being, it took me a good 10 hours of my life (mostly due to writers block TwT) if you're wondering both Sam and the narrator were based off me, which is probably what motivated me to make this in the first place. i have no desire to elaborate further. 
+i really, really, //really// wanted to do more with this. like most of my ocs, i feel the urge to give them an entire cinematic universe every time i make them. but alas, i did need to turn this assignment in, so thats a shame. i definitely rushed some of these parts, and I'm sure you can see which ones based off the quality of writing lmao
+anywho, toodles!''
+<!--also, to be perfectly honest, i ended up doing this assignment on the wrong twine file, which meant that, after i finished, i had to copy all my things into the correct one. one by one. please show pity on me-->
+
+[[stop yapping, unc->NewStart]]
+
+
+:: embarrass {"position":"1912.5,1625","size":"100,100"}
+(Deciding to kick them while they're down, you brutally critique the game's originality and point out multiple plot holes in the story. You can hardly see their face, but you can vaguely see tears forming in the sides of their eyes.)
+
+(You feel the force of the table pressing into your abdomen as they abruptly push themself from the chair. Without another word, they rush through the exit, the bell violently ringing behind them. The cafe is dead silent, except from occasional murmurs from the confused staff.)
+
+did... did i [[win?]]
+
+
+:: fishing {"position":"1537.5,1375","size":"100,100"}
+(Despite picking the most white, basic activity you possibly could, you see the light rekindle in Sam's eyes. No, actually, their eyes seem wider and and they seems more invested than they were before. Like some kind of Bass Pro Shops lurking Bud Light slurping beer belly deadbeat dad in their 40s, fishing actually seemed to... interest them?)
+
+I love fishing! Well, I don't love //fishing,// I've never actually gone, but I do love fish! I-I'm actually studying marine biology right now! S-some friends of mine actually work at an aquarium, a-and they let me feed some of the animals back there, and-
+
+(They stop talking and scroll through their camera roll, thank God. Do you see how much they're struggling to keep themself together right now? If you think all the stuttering is embarrassing for you, just imagine how it feels to actually //see// this. I'm not even supposed to //have// feelings and I'm getting second hand embarrassment.)
+
+(After a minute or two, they pull out a picture of them feeding a... what the hell even is that? It looks like an inbred alien. I actually don't think I've seen something more disgusting looking in my life. Good lord.)
+
+I know it's not the prettiest but uh... it's called a monkfish, and I actually think it's pretty interesting! Their large mouth is used to ambush their prey. They can even eat things that are like, 90% of their body's size. Including birds!
+
+(Unfortunately, they're maintaining full eye contact as they say this, so there's no oppurtunity to pull out your phone to awkwardly escape the situation. You're like a deer that's stuck in a bear trap and you're about to get eaten by... a monkfish.)
+
+Aaaaand how about you? Do you have any favorite marine animals?
+
+[[shrimp.]] it's my favorite fish
+
+
+:: flippers and stuff. {"position":"1400,1750","size":"100,100"}
+(They stand up abruptly and slam the table. Letting out a frustrated yell, they storm out of the cafe, violent ringing the bell as they slam the door shut. Even through the window you can hear them rambling to themself as they leave.)
+
+Idiot... wouldn't know the difference between a fish and a crustacean if one slapped him in the face... dunno what I expected from someone who fishes as a hobby...
+
+(You can see various employees take subtle peeks at you as to get a clue on what could've elicited such a reaction. I might not be an expert with social matters, but it doesn't seem like they're coming back.)
+
+did... did i [[win?->shrimpwin]]
+
+
+:: goodask {"position":"1725,2250","size":"100,100"}
+(Before you even finish asking them to elaborate further, they've already pulled out their phone and begun scrolling through their camera roll. They lift off their chair a bit and lean closer to you, video in hand.)
+
+I playes this one a couple of days after Eve dropped it, it grew on me immediately. I usually play J-pop like this, but I play whatever I feel when an artist drops a song I really like, or when I find an animation meme I enjoy. I can't really play anything //too// complicated, but I've been at it since I was 12, so I'd say I'm pretty alright. 
+
+(Past the screen, you can see them gazing at you with wide eyes, waiting for you to commend him. I personally think they're only //alright//, but they're impressive enough that you can't help but praise them. They look much more collected now, it's clear you've boosted their ego a little.)
+
+You flatter me. Really, I'm not the best, but if we met up again you could watch me play-
+
+(A shrill buzz lightly shakes the table. They look at the notification and let out an exasperated sigh.)
+
+Sorry, I think I have to go. I really did want to schedule this when I was free, but work has been kicking my ass lately. I don't think I can decline this, I've taken too many off days...
+
+(They stand up and adjust their sweater, shivering a little from the cold as if the brace for the afternoon air.)
+
+It was fun though! You're actually a really good guy, and I did enjoy talking to you. You have my number so... give me a text and we can find a time when we're //actually// free. Bye!
+
+(Sam quickly exits the building, letting in a gust of cool wind and gently ringing the bell as they hurry along. The cafe's staff pay no notice and continue working in the kitchen.)
+
+did... did i [[win?->goodloss]]
+
+
+:: goodloss {"position":"1525,2250","size":"100,100"}
+!HELL NO!
+
+(This couldn't have even been an accident. You genuinely chose every action in this situation that would've //not// bombed the date. And for what? This stupid, rambling, stuttering chud?)
+
+(You know, I don't even feel like bringing you back to the start. If you really don't want to play my game, you don't //get// to play it. Go play something else, see if I care.)
+
+
+:: great {"position":"1337.5,2000","size":"100,100"}
+(I'm glad you enjoyed ruining that date as much as I did! Now, you can go back to the start, to mess up Sam's day once more!)
+
+[[restart->NewStart]]
+
+
+:: guitargood {"position":"1662.5,1750","size":"100,100"}
+(They seem to perk up a bit at the mention of a common interest.)
+
+Oh yeah? I happen to play the guitar myself! Well, I don't play the //guitar//, in the conventional sense, I, uh, play bass! I play in my free time sometimes, when I listen to a song I really like. Just occassional.. y'know.. bursts of motivation...
+
+(Despite their humble mannerisms, it looks like they're absolutely brimming with confidence and pride. I bet they're silently //begging// you to ask them about it. This might be a fantastic oppurtunity to ruin the date, wink wink, nudge nudge.)
+
+[[ask->goodask]] about it
+
+bass guitar is a [[lame->otherlame]] instrument. you can barely hear it.
+
+
+:: im just gonna be nice to him again lmao {"position":"1775,1875","size":"100,100"}
+(...I hate you.)
+
+[[stay mad->NewStart]]
+
+
+:: into {"position":"2037.5,1375","size":"100,100"}
+(Ew. I'm not even continuing this game because you chose that option. You lose, or whatever. Play something else, you freak.)
+
+wait im [[sorry]]
+
+
+:: know {"position":"2037.5,1250","size":"100,100"}
+(What if, like, I gave them a bad history. What if they've like, killed somebody. Would you date a murderer?)
+
+i think theyre capable of [[change]]
+
+im [[into]] that
+
+probably [[not]]
+
+
+:: lame {"position":"1850,2000","size":"100,100"}
+(Before you can even finish your sentence, they abruptly push themself out of their chair. They let out an exhale of frustration.)
+
+You really, //really// piss me off. I don't get why you're like this, but you act like you're actively trying to be an asshole every chance you can get. I mean, do you even-
+
+(Clearly restraining themself from saying worse profanities, they make their leave, roughly closing the door and causing the bell to shake violently. You see the waiters and baristas openly judging you from behind the counter.)
+
+did i... did i [[win?->assholewin]]
+
+
+:: listen {"position":"1725,1500","size":"100,100"}
+(After a solid five minutes of yapping about whatever the hell Snorpworld is, they finally take a hint and stop talking. They slowly begin to recline into their sweater like the actual loser they are. They mutter something that resembles an apology before burying their face in their hands. I wish this wasn't a word based visual novel, it genuinely looks so pathetic.)
+
+[[comfort]] them
+
+[[embarrass]] them further
+
+
+:: listengood {"position":"1550,1875","size":"100,100"}
+(After a solid five minutes of yapping about whatever the hell Snorpworld is, they finally take a hint and stop talking. They slowly begin to recline into their sweater like the actual loser they are. They mutter something that resembles an apology before burying their face in their hands. I wish this wasn't a word based visual novel, it genuinely looks so pathetic.)
+
+[[comfort->comfortgood]] them
+
+[[embarrass]] them further
+
+
+:: loss {"position":"1800,1750","size":"100,100"}
+!HELL NO!
+
+(You ignored the main point of the game! What is wrong with you? Did sympathy over a //fictional character// really prevent you from completing the main objective?)
+
+kinda, [[yeah]]
+
+
+:: low blow {"position":"1912.5,1500","size":"100,100"}
+(Fair enough. I'm going to send you to the game now, but you have to //promise// to bomb the date, ok? I spent a really long time thinking of an original cool premise. Please?)
+
+[[aye aye->begin]]
+
+[[i guess, bro->begin]]
+
+
+:: not {"position":"2162.5,1375","size":"100,100"}
+(That's what I thought. While you're playing, imagine they're a murderer. Like, one of those absolutely messed up murderers that like. Eat their victims' skins and stuff. Ok?)
+
+[[sure->begin]]
+
+
+:: nuh uh {"position":"1400,1625","size":"100,100"}
+(You can see their eye twitching slightly. Their pupils are moving frantically, as if they're trying to deduce if you're serious or not.)
+
+What the hell do you mean, nuh uh? Crustaceans have exoskeletons. They're more closely related to arthropods. Do you have //any// idea what you're talking about?
+
+(Somehow, it seems like this is making them incredibly angry. Good job player, you're doing great.)
+
+theyre fish. theyve got, like, [[flippers and stuff.]]
+
+
+:: order {"position":"1850,1125","size":"100,100"}
+(As you recieve the black coffee you ordered, you hear the faint sound of footsteps on the pavement outside. The door wildly swings open to reveal a very dissarayed and out of breath Sam, panting heavily as they apologize to the confused cashiers. They appear exactly like they did in their bio, which is admittedly quite admirable. They dressed casually, but the outfit suits them very well, even after their hair got messed up when they ran. They awkwardly shuffle over to your table.)
+
+I'm so sorry! I overslept and I missed my bus, and my bike's tire in in the shop right now and I live like two blocks away from here and I-
+
+(They stop as they see the cup of coffee in your hand. They express a subtle look of dissapointment, but quickly hide it behind a small grin.)
+
+I see you've already gotten something without me! W-well, I guess I did keep you waiting long, it's... only fair...
+
+(Look at this idiot, stuttering like they're 12. Between you and me, I personally hate this guy, but seeing how they act I'm sure you agree with me. I mean, they just //seem// like the annoying type, y'know?)
+
+(After choking out their words, they seat themselves across from you. They place their hands and avoid eye contact for a while, before finally breaking the silence.)
+
+You look great today! I feel bad for looking like a mess right now, you look gorgeous!
+
+[[agree]] they look like a mess
+
+[[compliment]] them back
+
+
+:: otherlame {"position":"1850,2250","size":"100,100"}
+(Before you can even finish your sentence, they abruptly push themself out of their chair. They let out an exhale of frustration.)
+
+Sorry, I just... you're a great guy and all, but I don't really think we have any chemistry, It's been nice meeting up with you. Here, for the coffee.
+
+(They hand you a 5 dollar bill and make their leave, roughly closing the door and causing the bell to shake violently. You see the waiters and baristas openly judging you from behind the counter.)
+
+did i... did i [[win?->assholewin]]
+
+
+:: phone {"position":"1600,1500","size":"100,100"}
+(They continue talking for a good five minutes before they realize you've been completely ignoring them the whole time.. Their smile immediately drops to a grimace. After a small pause, they let out a forced cough.)
+
+I... think I need to use the bathroom.
+
+(They nearly book it in the complete opposite direction of the restroom and leave the building. The door slams behind them, violently ringing the bell. The employees of the establishment, who had been listening the whole time, let out exhales of frustration before going back to work while they silently judge you.)
+
+did... did i [[win?]]
+
+
+:: playing guitar {"position":"1787.5,1375","size":"100,100"}
+(They seem to perk up a bit at the mention of a common interest.)
+
+Oh yeah? I happen to play the guitar myself! Well, I don't play the //guitar//, in the conventional sense, I, uh, play bass! I play in my free time sometimes, when I listen to a song I really like. Just occassional.. y'know.. bursts of motivation...
+
+(Despite their humble mannerisms, it looks like they're absolutely brimming with confidence and pride. I bet they're silently //begging// you to ask them about it. This might be a fantastic oppurtunity to ruin the date, wink wink, nudge nudge.)
+
+[[ask]] about it
+
+bass guitar is a [[lame]] instrument. you can barely hear it.
+
+
+:: right {"position":"1975,1125","size":"100,100"}
+(Yeah. I know. Anyways, you can start the game now. Don't keep me waiting any longer.)
+
+[[ok->begin]]
+
+
+:: shrimp. {"position":"1412.5,1500","size":"100,100"}
+(They let a genuine laugh that slowly fades into a deadpan expression.)
+
+Please... please don't tell me you're serious. Shrimp aren't fish. They're crustaceans.
+
+[[nuh uh]]
+
+
+:: shrimpwin {"position":"1400,1875","size":"100,100"}
+!Yes, yes you did!
+
+(Good job, player! Although you didn't ruin the date in a conventional manner, you still managed to guaruntee they would never speak to you again! I'm so proud of you.)
+
+[[great]]
+
+i feel [[bad]]
+
+
+:: sorry {"position":"2037.5,1500","size":"100,100"}
+(Fine, I'm sending you back to the start. Make better decisions next time.)
+
+[[thanks->Start]]
+
+
+:: video games {"position":"1675,1375","size":"100,100"}
+(For the first time, you see Sam make a genuine smile.)
+
+I love video games! It's kinda niche, but I am a //huuuuge// fan of Snorpworld. Y-you've probably never heard of it, but it's a roguelike dungeon crawler hack and slash FPS with a really deep story. So basically you're playing as the chosen one, but...
+
+(It doesn't seem like they're going to stop talking anytime soon. And about what? What in the actual hell is a Snorpworld? I bet it's a horrible game with a community full of darkshippers or something messed up like that. Anyways, it's your call again.)
+
+pull out your [[phone]]
+
+[[listen]] to his ranting
+
+
+:: videogamesgood {"position":"1537.5,1750","size":"100,100"}
+(For the first time, you see Sam make a genuine smile.)
+
+I love video games! It's kinda niche, but I am a //huuuuge// fan of Snorpworld. Y-you've probably never heard of it, but it's a roguelike dungeon crawler hack and slash FPS with a really deep story. So basically you're playing as the chosen one, but...
+
+(It doesn't seem like they're going to stop talking anytime soon. And about what? What in the actual hell is a Snorpworld? I bet it's a horrible game with a community full of darkshippers or something messed up like that. Anyways, it's your call again.)
+
+pull out your [[phone]]
+
+[[listen->listengood]] to his ranting
+
+
+:: wait {"position":"1725,1125","size":"100,100"}
+(As you decline the waitress' offer, you hear the faint sound of footsteps on the pavement outside. The door wildly swings open to reveal a very dissarayed and out of breath Sam, panting heavily as they apologize to the confused cashiers. They appear exactly like they did in their bio, which is admittedly quite admirable. They dressed casually, but the outfit suits them very well, even after their hair got messed up when they ran. They awkwardly shuffle over to your table.)
+
+I'm so sorry! I overslept and I missed my bus, and my bike's tire in in the shop right now and I live like two blocks away from here and I-
+
+(You reassure them. After apologizing some more, they finally seat themselves.)
+
+Th-thank you for waiting for me... I really hope I didn't keep you waiting long.
+
+(Look at this idiot, stuttering like they're 12. Between you and me, I personally hate this guy. I honestly don't know why you're being so nice to him. Probably to break his heart even more, I bet.)
+
+(After choking out their words, they place their hands and avoid eye contact for a while, before finally breaking the silence.)
+
+You look great today! I feel bad for looking like a mess right now, you look gorgeous!
+
+[[agree]] they look like a mess
+
+[[compliment->complimentgood]] them back
+
+
+:: want {"position":"2100,1125","size":"100,100"}
+(Sam is a fictional character I made up on the spot. He has no backstory, no lore, no personality. You quite literally have zero connection to them.)
+
+i want to get to [[know]] them
+
+i see youre point and youre super cool and [[awesome]]
+
+
+:: why {"position":"1912.5,1000","size":"100,100"}
+(What do you mean why? I told you to. The point of the game is to bomb the date, the premise is supposed to be a subversion of the classic dating game trope. Why wouldn't you want to play through this interesting concept?)
+
+i guess youre [[right]]
+
+what if i [[want]] to date sam
+
+
+:: win? {"position":"1600,1625","size":"100,100"}
+!Yes, yes you did!
+
+(Good job, player! You've completely ruined their sense of self worth and made them anxious to try to find love for at least half a year! I hope you feel accomplished, you've won the game! I couldn't be more proud of you.)
+
+[[great]]
+
+i feel [[bad]]
+
+
+:: yeah {"position":"1525,2375","size":"100,100"}
+(You're unbelievable. Totally unbelievable. I'm sending you back, and this time, you better play the game //correctly.//)
+
+[[whatever, man->NewStart]]
+
+[[im just gonna be nice to him again lmao]]
